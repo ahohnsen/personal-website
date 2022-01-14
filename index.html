@@ -4,33 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrea Hohnsen</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Andrea Hohnsen</h1>
-    <nav>
-      <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
-    </nav>
-  </header>
-  <figure>
-    <img src="https://source.unsplash.com/random/600x300" alt="">
-    <figcaption>Das ist eine Bildunterschrift</figcaption>
-  </figure>
-  <section id="contact">
-    <h2>Contact</h2>
-    <ul>
-      <li><b>Phone:</b> +49 176 97326505</li>
-      <li><b>Email:</b><a href="mailto:a.hohnsen@mail.de">a.hohnsen@mail.de</a></li>
-      <li><b>Follow me on:</b><br><br>
-      <a href="https://github.com/ahohnsen" target="_blank"><img src="images/icon-github.png" alt="GitHub Logo" width="48px" height="48px"></a>
-      <a href="https://codepen.io/ahohnsen" target="_blank"><img src="images/icon-codepen.png" alt="Codepen Logo" width="48px" height="48px"></a>
-      
-    </li>
-  </ul>
-  </section>
-  <section id="biography">
-    <h2>Biography</h2>
-  </section>
+  <div class="page">  
+    <header>
+        <h1>Andrea Hohnsen</h1>
+        <nav class="navigation">
+          <a class="button" href="#skills">Skills</a>
+          <a class="button" href="#interests">Interests</a>
+          <a class="button" href="#biography">Biography</a>
+         </nav>
+    </header>
+    <img class="img-head" src="https://source.unsplash.com/random/600x300" alt="">
+    <main><div class="wrap-personal">
+      <section class="section-box">
+        <h2>About me</h2>
+        <p>I am a biologist who worked several years abroad as a Dive Instructor and Dive Center Manager. Currently I am back home in Germany and learning to become a Web Developer.</p>
+      </section>
+      <section class="section-box" id="skills"><h2>Skills</h2>
+        <ul><li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </section>
+      <section class="section-box" id="interests"><h2>Interests</h2>
+        <ul>
+         <li>Interests 1</li>
+         <li>Interests 2</li>
+         <li>Interests 3</li>
+         <li>Interests 4</li>
+         <li>Interests 5</li>
+        </ul>
+       </section></div>
+       <section id="follow">
+        <p><b>Follow me on:</b></p>
+        <a class="icon" href="https://github.com/ahohnsen" target="_blank"><img src="images/icon-github.png" alt="GitHub Logo" width="48px" height="48px"></a>
+        <a class="icon" href="https://codepen.io/ahohnsen" target="_blank"><img src="images/icon-codepen.png" alt="Codepen Logo" width="48px" height="48px"></a>
+      </section>
+      <section id="biography">
+        <h2>Biography</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      </section>
+      <div class="navigation, contact-bar">
+        <b>Phone:</b><a href="004917697326505">+49 176 97326505</a>  - <b>Email:</b><a href="mailto:a.hohnsen@mail.de"> a.hohnsen@mail.de
+      </div>
+    </main>
+  </div>  
 </body>
 </html>
