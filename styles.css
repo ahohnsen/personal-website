@@ -156,13 +156,6 @@ dd:last-of-type {
   padding: 0 0 25px 25px;
 }
 
-.footer-main {
-  font-family: "Roboto Slab", serif;
-  background-color: rgba(9, 31, 41, 38%);
-  text-align: center;
-  padding: 10px 0px 5px 0px;
-}
-
 .icon {
   width: 3em;
   height: auto;
