@@ -1,0 +1,7 @@
+:root {
+  --color-dashed-line: rgba(9, 31, 41, 30%);
+  --color-container: rgba(0, 0, 0, 5%);
+  --color-navigation: rgba(9, 31, 41, 38%);
+  --color-button-border: rgba(9, 31, 41, 0%);
+  --color-dark-blue: rgba(9, 31, 41, 100%);
+}
