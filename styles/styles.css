@@ -2,7 +2,7 @@
 @import "./colors.css";
 @import "./utility.css";
 
-@import "./components/page.css";
+@import "./components/background.css";
 @import "./components/header-main.css";
 @import "./components/navigation.css";
 @import "./components/container.css";
