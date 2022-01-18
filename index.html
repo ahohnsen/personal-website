@@ -6,91 +6,71 @@
     <title>Andrea Hohnsen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="page">
       <header class="header-main">
         <h1>Andrea Hohnsen</h1>
         <nav>
-          <ul class="navigation nav-bar-color">
-            <li class="button-top-nav"><a href="#me">me</a></li>
-            <li class="button-top-nav"><a href="#skills">skills</a></li>
-            <li class="button-top-nav"><a href="#interests">interests</a></li>
-            <li class="button-top-nav"><a href="#life">bio</a></li>
+          <ul role="list" class="navigation navigation--color">
+            <li class="navigation__button"><a href="#me">me</a></li>
+            <li class="navigation__button"><a href="#skills">skills</a></li>
+            <li class="navigation__button"><a href="#interests">interests</a></li>
+            <li class="navigation__button"><a href="#life">bio</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <img
-          class="img-header"
-          src="images/header-image-small.jpg"
-          alt=""
-          width="3101px"
-          height="1239px"
-        />
+        <img class="header-main__image" src="images/header-image-small.jpg" alt="" width="3101px" height="1239px" />
         <div class="wrapper">
-          <section id="me" class="section-box">
+          <section id="me" class="container">
             <h3>About me</h3>
-            <figure class="section-flex">
-              <img
-                class="portrait"
-                src="images/Photo_Circle.png"
-                alt="Profile picture"
-                width="100px"
-                height="100px"
-              />
+            <figure class="flex-col">
+              <img class="portrait" src="images/Photo_Circle.png" alt="Profile picture" width="100px" height="100px" />
               <figcaption>
-                I am a former biologist who worked several years abroad as a
-                Dive Instructor and Dive Center Manager. Currently I am back
-                home in Germany and learning to become a Web Developer.
+                I am a former biologist who worked several years abroad as a Dive Instructor and Dive Center Manager.
+                Currently I am back home in Germany and learning to become a Web Developer.
               </figcaption>
             </figure>
           </section>
-          <section id="skills" class="section-box">
-            <ul class="section-flex">
-              <li class="list-item"><h3>Skills</h3></li>
-              <li class="list-item">keen perception</li>
-              <li class="list-item">eager to learn</li>
-              <li class="list-item">patient</li>
-              <li class="list-item">attention to detail</li>
-              <li class="list-item">great sense of responsibility</li>
-              <li class="list-item">teamplayer</li>
+          <section id="skills" class="container">
+            <ul role="list" class="flex-col">
+              <li class="list__item"><h3>Skills</h3></li>
+              <li class="list__item">keen perception</li>
+              <li class="list__item">eager to learn</li>
+              <li class="list__item">patient</li>
+              <li class="list__item">attention to detail</li>
+              <li class="list__item">great sense of responsibility</li>
+              <li class="list__item">teamplayer</li>
             </ul>
           </section>
-          <section id="interests" class="section-box">
-            <ul class="section-flex">
-              <li class="list-item"><h3>Interests</h3></li>
-              <li class="list-item">Scuba Diving</li>
-              <li class="list-item">Crossfit</li>
-              <li class="list-item">Trekking</li>
-              <li class="list-item">Travelling</li>
-              <li class="list-item">Cooking</li>
-              <li class="list-item">Sustainability</li>
+          <section id="interests" class="container">
+            <ul role="list" class="flex-col">
+              <li class=""><h3>Interests</h3></li>
+              <li class="list__item">Scuba Diving</li>
+              <li class="list__item">Crossfit</li>
+              <li class="list__item">Trekking</li>
+              <li class="list__item">Travelling</li>
+              <li class="list__item">Cooking</li>
+              <li class="list__item">Sustainability</li>
             </ul>
           </section>
         </div>
         <div class="wrapper">
-          <section id="life" class="section-box">
+          <section id="life" class="container">
             <h3>Biography</h3>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam
-              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
           </section>
-          <section class="section-box alignment">
+          <section class="container align-center">
             <dl>
               <dt>2020</dt>
               <dd>Web Development Bootcamp</dd>
@@ -108,43 +88,33 @@
           </section>
         </div>
       </main>
-      <footer class="nav-bar-color">
+      <footer class="navigation--color">
         <h2>Get in touch!</h2>
         <ul class="navigation">
-          <li class="button-bottom-nav">
+          <li class="navigation__icon--flex">
             <a href="https://github.com/ahohnsen" target="_blank"
-              ><img
-                class="icon"
-                src="images/icon-github.png"
-                alt="Icon Github"
-                width="40px"
-                height="40px"
+              ><img class="navigation__icon" src="images/icon-github.png" alt="Icon Github" width="40px" height="40px"
             /></a>
           </li>
-          <li class="button-bottom-nav">
+          <li class="navigation__icon--flex">
             <a href="https://codepen.io/ahohnsen" target="_blank"
               ><img
-                class="icon"
+                class="navigation__icon"
                 src="images/icon-codepen.png"
                 alt="Icon Codepen"
                 width="40px"
                 height="40px"
             /></a>
           </li>
-          <li class="button-bottom-nav">
+          <li class="navigation__icon--flex">
             <a href="mailto:a.hohnsen@mail.de" target="_blank"
-              ><img
-                class="icon"
-                src="images/icon-email.png"
-                alt="Icon Email"
-                width="40px"
-                height="40px"
+              ><img class="navigation__icon" src="images/icon-email.png" alt="Icon Email" width="40px" height="40px"
             /></a>
           </li>
-          <li class="button-bottom-nav">
+          <li class="navigation__icon--flex">
             <a href="https://www.linkedin.com/in/andrea-hohnsen" target="_blank"
               ><img
-                class="icon"
+                class="navigation__icon"
                 src="images/icon-linkedin.png"
                 alt="Icon LinkedIn"
                 width="40px"

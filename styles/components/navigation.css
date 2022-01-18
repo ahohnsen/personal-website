@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navigation > * {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.navigation--color {
+  background-color: var(--color-navigation);
+}
+
+.navigation__button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  white-space: nowrap;
+  border-top: 3px solid var(--color-button-border);
+}
+
+.navigation__button:hover {
+  border-top: 3px solid var(--color-dark-blue);
+}
+
+.navigation__icon {
+  width: 3em;
+  height: auto;
+}
+
+.navigation__icon--flex {
+  display: flex;
+  justify-content: center;
+  max-width: 175px;
+}
+
+.navigation__icon:hover {
+  transform: scale(1.2);
+}

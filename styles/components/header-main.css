@@ -1,0 +1,12 @@
+.header-main {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.header-main__image {
+  width: 100%;
+  height: auto;
+  max-width: 1080px;
+}
