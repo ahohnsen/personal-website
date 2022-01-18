@@ -1,7 +1,7 @@
-.list__item {
+.list-item {
   padding: 10px 0;
   text-align: center;
 }
-.list__item:not(:last-child):not(:first-child) {
+.list-item:not(:last-child):not(:first-child) {
   border-bottom: 1px dashed var(--color-dashed-line);
 }
